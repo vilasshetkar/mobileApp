@@ -2,9 +2,10 @@
   "name": "mobile-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start" : "node ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vilasshetkar/mobileApp/issues"
   },
-  "homepage": "https://github.com/vilasshetkar/mobileApp#readme"
+  "homepage": "https://github.com/vilasshetkar/mobileApp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
